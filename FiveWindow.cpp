@@ -1,4 +1,4 @@
-#include "FiveWindow.h"
+#include "FiveWindow.hpp"
 
 FiveWindow::FiveWindow(const int blockWidht, const int fieldSize, const std::string texture_path) : RenderWindow(VideoMode(fieldSize*blockWidht, fieldSize*blockWidht), "Game") {
 	this->blockWidht = blockWidht;
